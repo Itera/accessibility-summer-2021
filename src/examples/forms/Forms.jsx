@@ -35,8 +35,8 @@ export const Forms = () => {
                 </p>
             </article>
             <form onSubmit={(e) => e.preventDefault()}>
-                <fieldset>
-                    <legend>Personal information</legend>
+                <fieldset aria-labelledby={'personal'}>
+                    <legend className='visually-hidden'>Personal information</legend>
                     <div className='has-validation'>
                         <label className={'form-label'} htmlFor={'given-name'}>
                             First name
