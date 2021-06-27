@@ -1,5 +1,8 @@
 # Itera - Accessibility Course, Summer 2021
 
+**Please note**: This is used for a one-hour course in accessibility, which means we're merely touching into
+multiple subjects. This is not intended to be viewed as a standalone application - it's part of a course.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

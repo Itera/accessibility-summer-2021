@@ -10,14 +10,14 @@ export const Images = () => {
                     might be nice for those who can see them, they might be perceived as noise for those who don't, and should
                     thus be hidden for assistive technologies. This can be achieved by e.g. an empty alt-tag.
                 </p>
-                <p className={'lead'}>
+                <p>
                     The picture-tag allows for specifying images for different view-sizes, which is perfect for optimization
                     of page loads, where the source sets will be validated from <i>top to bottom</i>, loading the first that fits.
                 </p>
             </article>
 
             <div className='row'>
-                <div className='col-sm-6'>
+                <div className='col-sm-6 mb-2'>
                     <picture>
                         <source media={'(max-width: 640px)'} srcSet={'./dummy/itera-logo-blue.jpg'}/>
                         <img className='img-fluid rounded' src='./dummy/itera-logo.png' alt='Itera logo' title='' loading={'lazy'} />
