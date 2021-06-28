@@ -35,7 +35,7 @@ export const Forms = () => {
                 </p>
             </article>
             <form onSubmit={(e) => e.preventDefault()}>
-                <fieldset aria-labelledby={'personal'}>
+                <fieldset>
                     <legend className='visually-hidden'>Personal information</legend>
                     <div className='has-validation'>
                         <label className={'form-label'} htmlFor={'given-name'}>
@@ -91,6 +91,17 @@ export const Forms = () => {
                             aria-required
                             aria-autocomplete={"inline"}
                         />
+                    </div>
+                </fieldset>
+                <fieldset className='mt-4'>
+                    <legend>Consents</legend>
+                    <div className='form-check'>
+                        <label htmlFor={'consent-true'}>Yes</label>
+                        <input type={'radio'} name={'consent'} className='form-check-input' id={'consent-true'} value={'true'}/>
+                    </div>
+                    <div className='form-check'>
+                        <label htmlFor={'consent-false'}>No</label>
+                        <input type={'radio'} name={'consent'} className='form-check-input' id={'consent-false'} value={'false'}/>
                     </div>
                 </fieldset>
 

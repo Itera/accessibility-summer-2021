@@ -43,8 +43,9 @@ function App() {
                 </p>
                 <p className='lead mt-5 fw-bold'>Some relevant links for accessibility implementation:</p>
                 <div className='list-group col-sm-6'>
-                    <a className='list-group-item  list-group-item-action' target={'_blank'} href={'https://www.uutilsynet.no/'}>UU-Tilsynets hjemmesider</a>
-                    <a className='list-group-item  list-group-item-action' target={'_blank'} href={'https://www.w3.org/TR/WCAG21/'}>WCAG 2.1 Spesifikasjon (Tunglest)</a>
+                    <a className='list-group-item  list-group-item-action' rel={'noreferrer'} target={'_blank'} href={'https://www.uutilsynet.no/'}>UU-Tilsynets hjemmesider</a>
+                    <a className='list-group-item  list-group-item-action' rel={'noreferrer'} target={'_blank'} href={'https://www.w3schools.com/html/html_accessibility.asp'}>W3Schools Accessibility Summary</a>
+                    <a className='list-group-item  list-group-item-action' rel={'noreferrer'} target={'_blank'} href={'https://www.w3.org/TR/WCAG21/'}>WCAG 2.1 Spesifikasjon (Tunglest)</a>
                 </div>
                 <section id='semantic' className='mb-5'>
                     <Semantic />
