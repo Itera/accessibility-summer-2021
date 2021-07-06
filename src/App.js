@@ -44,6 +44,7 @@ function App() {
                 <p className='lead mt-5 fw-bold'>Some relevant links for accessibility implementation:</p>
                 <div className='list-group col-sm-6'>
                     <a className='list-group-item  list-group-item-action' rel={'noreferrer'} target={'_blank'} href={'https://www.uutilsynet.no/'}>UU-Tilsynets hjemmesider</a>
+                    <a className='list-group-item  list-group-item-action' rel={'noreferrer'} target={'_blank'} href={'https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd'}>AXE Devtools for Chrome</a>
                     <a className='list-group-item  list-group-item-action' rel={'noreferrer'} target={'_blank'} href={'https://www.w3schools.com/html/html_accessibility.asp'}>W3Schools Accessibility Summary</a>
                     <a className='list-group-item  list-group-item-action' rel={'noreferrer'} target={'_blank'} href={'https://www.w3.org/TR/WCAG21/'}>WCAG 2.1 Spesifikasjon (Tunglest)</a>
                 </div>

@@ -3,6 +3,8 @@
 **Please note**: This is used for a one-hour course in accessibility, which means we're merely touching into
 multiple subjects. This is not intended to be viewed as a standalone application - it's part of a course.
 
+The slides for the aforementioned course can be [found here](https://iteracloud.sharepoint.com/:p:/r/sites/collaboration/Accessibility/Shared%20Documents/2021%20UU%20Innf%C3%B8ring%20for%20studenter%20del%202%20Utvikling.pptx?d=wa685b147135147459aa3182b613eacd8&csf=1&web=1&e=CXZXit)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
